@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+    margin-right:0;
+    height: 13vh;
+    /* box-shadow: 10px 5px 6px rgb(194, 185, 185); */
+    
+}
+nav a{
+    color: black;
+    font-size: 1.8rem;
+    margin:auto 1em;
+}
+nav .logo{
+    text-decoration: none;
+    font-weight: bolder;
+    margin-right: auto;
+    color: #000000;
+    
+}
+
+.container-intro{
+    background: url('../Portfolio_Assignment/images/aleks-dorohovich-nJdwUHmaY8A-unsplash.jpg');
+    width: 100%;
+    background-position: center;
+    display: flex;
+    position: relative;
+    height: 85vh;
+    background-size: cover;
+        
+} 
+.content-intro p{
+    color: black;
+    font-family: sans-serif;
+    line-height: 1px;
+
+}
+.content-intro p:nth-child(1){
+margin-top: 10em;
+margin-left: 4.5em;
+font-weight: bold;
+font-size: 20px;
+
+}
+.content-intro p:nth-child(2){
+    margin-left:3em;
+    font-size:30px;
+    font-weight: bolder;
+}
+.content-intro p:nth-child(3){
+    font-size: 22px;
+    margin-left: 4em;
+}
+.content-intro{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.container-intro:before{
+    content: "";
+    background:#505050;
+    width: 100%;
+    opacity: 0.8;
+    transition: .5s ease;
+}
+.container-intro button{
+    margin-left: 5.5em;
+    background-color: black;
+    color: white;
+    max-width: fit-content;
+    font: 1em sans-serif;
+}
+button:active{
+    transform: scale(1.1);
+} 
+ 
