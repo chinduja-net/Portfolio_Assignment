@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,29 +9,105 @@
     <title>Portfolio_Assignment</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav>
-            <a href="#" class="logo">CV</a>
-            <a href="#"><i class="fas fa-home"></i></a>   
-            <a href="#"><i class="fas fa-user"></i></a>
-            <a href="#"><i class="fas fa-briefcase"></i></a>
-            <a href="#"><i class="far fa-envelope"></i></a>
+        <a href="#" class="logo">CV</a>
+        <a href="index.html"><i class="fas fa-home"></i><b>HOME</b></a>
+        <a href="about-me"><i class="fas fa-user"></i><b>ABOUT ME</b></a>
+        <a href="projects"><i class="fas fa-briefcase"></i><b>PROJECTS</b></a>
+        <a href="contact-me"><i class="far fa-envelope"></i><b>CONTACT</b></a>
+        <!-- coverpic -->
     </nav>
+    <section>
+        <div class="container-intro">
 
-<div class="container-intro">
-    
-<div class="content-intro">
-<p>Hello,</p>
-<p>I'm Chinduja</p>
-<p>Front End Developer & Designer</p>
-<button>I need a Website <i class="fas fa-angle-right"></i></button>
-</div>
-</div>
+            <div class="content-intro">
+                <p>Hello,</p>
+                <p>I'm Chinduja</p>
+                <p>Front End Developer & Designer</p>
+                <button>I need a Website <i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+    </section>
+    <!-- Aboutme -->
+    <section class="about-me">
 
+        <article>
+            <div class="profile-image">
+                <img src="images/snow 310-01EDIT.jpg" alt="">
+            </div>
+            <div class="profile-personal">
+                <p>Get To Know Me</p>
+                <p>Front End Developer & Designer</p>
+                <p>Hi there! I'm chinduja, front end developer living in Gothenburg,Sweden. I have passion for design
+                    and creating responsive websites. Front End Development is building out the visual components of a
+                    website. Using HTML, CSS and Javascript, I build fast, interactive websites.Fan of trekking, long
+                    walks and TV series. Married to a wonderful person and a mom of a beautiful girl. I would love to
+                    meet over
+                    coffee and discuss work. Feel free to contact me!</p>
+            </div>
+        </article>
+    </section>
+    <!-- project     -->
+    <section class="projects">
+        <h3>My Projects</h3>
+        <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.I value simple content
+            structure, clean design patterns, and thoughtful interactions.I enjoy designing web, Apps, Logos, Mobile. I
+            use design tools like Sigma, Sketch,Pen & Paper.</p>
+        <div class="projects-offered">
+            <div class="project-1">
+                <div>
+                    <img src="images/project4.png" alt="">
+                    <p>I like to create websites with modern and clean outlook. My designs are user friendly with easy
+                        experience to access the website.</p>
+                </div>
+            </div>
+            <div class="project-2">
+                <img src="images/project2.png" alt="">
+                <p>I enjoy creating responsive websites which is compatible to desktop screen , mobile screen and other
+                    screens in different orientation.</p>
 
+            </div>
+            <div class="project-3">
+                <img src="images/project3.png" alt="">
+                <p>I use various design tools like Adobe xd to create thoughful, interactive and simple websites
+                    according to the needs of the clients. </p>
 
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="contact-me">
+        <h1>CONTACT ME</h1>
+        <p>Iam interested in freelance oppurtunities. However, if you have any other request, don't hesitate to contact
+            me using below form either.</p>
+        <form action="https://formspree.io/f/xeqpdpgq" method="POST">
+            <div>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name">
 
+                <input type="email" name="email" id="email" placeholder="Enter Email id">
+            </div>
+            <div>
+                <textarea name="message" id="comments" col="50" row="4" placeholder="Message for me"></textarea>
 
-
+            </div>
+            <button type="submit" class="btn">Send</button>
+        </form>
+        <!-- socialmedia -->
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="social">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
 </body>
+
 </html>
