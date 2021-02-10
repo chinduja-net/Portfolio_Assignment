@@ -191,6 +191,7 @@ article{
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
     border-radius:20px;
     background-color: #fff;
+    padding-bottom: 1em;
 }
 .project-1 h4,
 .project-2 h4,
