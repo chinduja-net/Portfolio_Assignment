@@ -15,7 +15,7 @@ nav{
       
 }
 nav a{
-    color: black;
+    color: #000000;
     font-size: 1.8rem;
     margin:auto 1em;
 }
@@ -34,8 +34,7 @@ nav a:hover i{
 }
 nav a:hover b{
     display: block;
-    font: 0.5em sans-serif;
-    font-style: italic;
+    font: italic 0.5em sans-serif;
     text-decoration-line: none;
 }
 
@@ -62,7 +61,7 @@ nav a:hover b{
     background-position: center;
     display: flex;
     position: relative;
-    height: 85vh;
+    height: 90vh;
     background-size: cover;
 } 
 .content-intro p{
@@ -134,8 +133,7 @@ article{
 .profile-personal{
     width: 50%;
     font-family:sans-serif;
-    
-    color: black;
+    color: #000000;
     text-align: justify;
     
 }
@@ -197,12 +195,10 @@ article{
 .project-2 h4,
 .project-3 h4{
    margin-bottom: auto; 
-
 } 
 
 .contact-me{
 	width: 100%;
-	
 	margin: auto;
     background-color: rgba(0, 0, 0,0.7);
 }
@@ -238,6 +234,7 @@ form{
     overflow-y: scroll;
       
 }
+
 form .btn{
     width:150px;
 	height:30px;
